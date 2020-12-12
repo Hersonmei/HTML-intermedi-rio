@@ -14,20 +14,20 @@
     
     <form method="GET" action="">
 
-        <input type="text" name="search_query"><br>
-        <input type="password" name="senha"><br>
-        <input type="checkbox" name="curso" value="op1">Reactive Native<br>
-        <input type="checkbox" name="curso" value="op2">Reactive JS<br>
+        <select name="estado" size="5" multiple>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP" selected>São Paulo</option>
+            <option value="PE" selected>Recife</option>
+            <option value="CE" selected>Fortaleza</option>
 
-        <!-- Como tem o mesmo name(que é gênero) só vai dar pra marcar um dos box, se tiver names diferentes, vai poder marcar os dois boxs.
+
+
+
+        </select>
+
         
-        Checked for colocado em uma linha(não precisa de texto ou valor), quando a página abrir, o item já estará automaticamente marcado-->
-        <input type="radio" name="gênero" value="m" checked>Masc<br>
-        <input type="radio" name="gêneros" value="f">Fem<br>
-
-
-        <input type="reset" value="limpar">    
-        <input type="submit" value="enviar">
+        
+        <input type="submit" >
 
 
     </form>
