@@ -3,22 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Módulo HTML Intermediário</title>
+    <title>Módulo HTML Intermediário </title>
 
 
 
 
 </head>
 <body>
-    
+    <!-- Novos inputs do HTML que podem não funcionar em todos os navegadores! -->
     
     <form method="GET" action="">
+        <input type="color" name="cor">
+        <br><br>
 
-        <input type="text" name="assunto"><br>
+        <input type="date" name="data" max="2018-12-31">
+        <br><br>
+
+        <input type="datetime-local" name="data" max="2018-12-31">
+        <br><br>
+
+        <!-- Nesse input abaixo para escolher e enviar um arquivo, é necessário que o método seja POST -->
+        <input type="file" name="arquivo">
+        <br><br>
+
+        <input type="number" name="número" max="10" min="2">
+        <br><br>
+
+        <input type="range" name="intervalo" min="5" max="10" value="6">
+        <br><br>
+
+        <!-- No celuar, quando clicar no link abaixo, vai aparecer o teclado número do celular para telefone -->
+        <input type="tel" name="telefone">
+        <br><br>
+
+        <input type="email" name="email">
         
-        <textarea name="messagem"></textarea>
+
+        <input type="submit">
+
         
-        <input type="submit" >
 
 
     </form>
